@@ -1,0 +1,95 @@
+.header
+{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-bottom: 10px;
+    background-image: url(background-image.jpg);
+}
+.logo-style
+{
+    width: 100px;
+    height: 50px;
+    margin: 25px;
+}
+.right-section
+{
+    display: flex;
+    justify-content: row;
+    margin: 25px;
+}
+.language-style
+{
+    width: 100px;
+    height: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(32, 32, 32, 0.9);
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.log-in-style
+{
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(216, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.main-container-one
+{
+    position: absolute;
+    margin: 200px 150px 50px 150px;
+    text-align: center;
+    font-size: 17px;
+}
+.head-one
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.e-mail-button
+{
+    margin-top: 20px;
+}
+.input-email
+{
+    width: 350px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: rgba(32, 32, 32, 0.9);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(119, 119, 119);
+    border-width: 1px;
+    border-color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+.input-email:focus
+{
+    outline: none;
+    color: white;
+}
+.begin-button
+{
+    width: 200px;
+    height: 55px;
+    background-color: rgb(216, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.begin-button:hover,
+.log-in-style:hover
+{
+    cursor: pointer;
+}
